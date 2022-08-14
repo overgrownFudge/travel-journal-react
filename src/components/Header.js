@@ -3,7 +3,8 @@ import logo from "../images/main-logo.png"
 export default function Header() {
     return (
         <div className = "header">
-            <p><img src = {logo}/> my travel journal.</p>
+            <img src = {logo}/>
+            <p>my travel journal.</p>
         </div>
     )
 }
