@@ -46,6 +46,16 @@ body {
     border: 0;
 }
 
+.location-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.7rem;
+}
+.ping-icon {
+    padding-right: 0.2em;
+}
+
 .images {
     margin: 0;
     width : 30%;
