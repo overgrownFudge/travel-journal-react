@@ -10,7 +10,7 @@ export default function Cards(props) {
             </div>
             <div className="card">
                 <div className="location-info">
-                    <img className="ping-icon" src={ping_icon} />
+                    <img className="ping-icon" src={ping_icon} alt="location ping icon"/>
                     <p>{props.location} <a href={props.googleMaps}>View on Google Maps</a></p>
                 </div>
                 <h1>{props.title}</h1>
